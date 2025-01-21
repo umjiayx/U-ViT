@@ -1,0 +1,8 @@
+# Ignore all .pth files
+*.pth
+
+# Ignore other common patterns
+__pycache__/
+*.pyc
+.env
+.DS_Store
