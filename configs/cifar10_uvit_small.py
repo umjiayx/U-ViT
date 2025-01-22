@@ -54,10 +54,13 @@ def get_config():
 
     config.sample = d(
         sample_steps=1000,
-        n_samples=50000,
-        mini_batch_size=500,
+        n_samples=50000, # change this from 50000 to 5000
+        mini_batch_size=500, 
         algorithm='euler_maruyama_sde',
-        path=''
+        path='./results/20250121-2/20250121-2-imgs/'
     )
+
+    # Yixuan: add model weights
+    # config.nnet_path = './models/cifar10.pth'
 
     return config

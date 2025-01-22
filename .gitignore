@@ -6,3 +6,8 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
+
+# Ignore all files in assets/ and models/
+assets/
+models/
+results/
